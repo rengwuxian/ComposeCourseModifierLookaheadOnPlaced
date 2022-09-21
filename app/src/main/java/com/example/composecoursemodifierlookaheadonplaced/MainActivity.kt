@@ -21,12 +21,12 @@ class MainActivity : ComponentActivity() {
         OnPlacedModifier
         OnRemeasuredModifier
         LookaheadLayout(content = {
-                                  Row(Modifier.onPlaced { lookaheadCoordinates, coordinates ->
+          Row(Modifier.onPlaced { lookaheadCoordinates, coordinates ->
 
-                                  }) {
+          }) {
 
-                                  }
-        }, measurePolicy = )
+          }
+        }, measurePolicy =)
       }
     }
   }
